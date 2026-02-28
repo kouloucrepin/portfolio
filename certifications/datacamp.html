@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications DataCamp - KOULOU Crepin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html">Mon Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Accueil</a></li>
+                <li><a href="../index.html#about">À propos</a></li>
+                <li><a href="../index.html#skills">Compétences</a></li>
+                <li><a href="../index.html#certifications">Certifications</a></li>
+                <li><a href="../index.html#projects">Projets</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+            </div>
+            <div class="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cert-detail-hero reveal">
+            <div class="cert-logo-wrapper">
+                <img src="../assets/images/datacamp.png" alt="DataCamp Logo" class="cert-provider-logo">
+            </div>
+            <h1>DataCamp</h1>
+            <h2>Expertise en Data Science & IA</h2>
+            <p>Un parcours rigoureux validant des compétences techniques avancées en manipulation de données et ingénierie de l'IA.</p>
+        </section>
+
+        <section class="cert-content reveal">
+            <div class="cert-description">
+                <h3>Impact de la formation</h3>
+                <p>
+                    Ces certifications témoignent d'une maîtrise pratique de l'écosystème Python pour l'analyse de données et le déploiement de solutions d'intelligence artificielle.
+                </p>
+            </div>
+
+            <div class="cert-list-grid">
+                
+                <div class="cert-item-card">
+                    <div class="cert-icon"><i class="fas fa-microchip"></i></div>
+                    <div class="cert-info">
+                        <h4>Associate AI Engineer for Data Scientists</h4>
+                        <p>Maîtrise de l'intégration des modèles d'IA générative et prédictive dans les flux de travail classiques de la data science pour automatiser l'analyse.</p>
+                        <a href="../assets/pdf/datacamp/Associate AI Engineer for Data Scientists.pdf" target="_blank" class="view-cert-btn">Voir le certificat</a>
+                    </div>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-icon"><i class="fas fa-terminal"></i></div>
+                    <div class="cert-info">
+                        <h4>Associate AI Engineer for Developers</h4>
+                        <p>Validation des compétences en développement d'applications utilisant des LLMs, incluant le prompt engineering et l'utilisation d'APIs d'IA.</p>
+                        <a href="../assets/pdf/datacamp/Associate AI Engineer for Developers.pdf" target="_blank" class="view-cert-btn">Voir le certificat</a>
+                    </div>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-icon"><i class="fas fa-project-diagram"></i></div>
+                    <div class="cert-info">
+                        <h4>Developing AI Application</h4>
+                        <p>Conception d'architectures applicatives centrées sur l'IA, de la préparation des données au déploiement de modèles interactifs.</p>
+                        <a href="../assets/pdf/datacamp/develloping ai application.pdf" target="_blank" class="view-cert-btn">Voir le certificat</a>
+                    </div>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-icon"><i class="fas fa-calculator"></i></div>
+                    <div class="cert-info">
+                        <h4>Statistician</h4>
+                        <p>Certification approfondie sur les méthodes statistiques, les tests d'hypothèses et les modèles de régression pour une analyse de données rigoureuse.</p>
+                        <a href="../assets/pdf/datacamp/stastistician.pdf" target="_blank" class="view-cert-btn">Voir le certificat</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <div id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <div class="chatbot-icon" id="chatbot-icon">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <div class="chatbot-window" id="chatbot-window">
+        <div class="chatbot-header">
+            <h3>Assistant Chatbot</h3>
+            <button class="close-chatbot" id="close-chatbot">&times;</button>
+        </div>
+        <div class="chatbot-body" id="chatbot-body">
+            <p class="chatbot-message bot">Bonjour ! Posez-moi des questions sur les projets de KOULOU Crepin.</p>
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" placeholder="Tapez votre message..." id="chatbot-input">
+            <button id="chatbot-send">Envoyer</button>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

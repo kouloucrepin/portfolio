@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Data Scientist, Économiste & Statisticien</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Mon Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+            </div>
+            <div class="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-image">
+                    <img src="assets/photos/photo perso.jpg" alt="KOULOU crepin">
+                </div>
+                <div class="hero-text">
+                    <h1>KOULOU crepin</h1>
+                    <h2>Data Scientist | Économiste | Statisticien</h2>
+                    <p>"Transformer les données en décisions stratégiques."</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="cta-button">Me Contacter</a>
+                        <a href="assets/cv/CV.pdf" target="_blank" class="cta-button secondary">Mon CV <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="reveal">
+            <h2>À propos de moi</h2>
+            <div class="about-content">
+                <p>
+                    Actuellement étudiant à l'ISSEA et passionné par l'intelligence artificielle, je combine rigueur académique et expertise technique pour transformer les données en solutions à fort impact. 
+                </p>
+                <p>
+                    En tant qu'<strong>AI Engineer chez MAXA</strong>, je travaille sur le projet <em>Maxagen Engine</em>, un système innovant de génération d'épreuves adaptées aux concours d'entrée des grandes écoles (ISSEA, ENSAE, ENSEA, Polytech). 
+                    Je suis également <strong>Co-fondateur de NKStatConsulting</strong>, où j'accompagne des organisations dans leur transformation digitale via la formation aux outils statistiques (R, Shiny, Excel) et l'automatisation de processus bancaires complexes.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="reveal">
+            <h2>Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Machine Learning</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-spell-check"></i>
+                    <h3>NLP</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>MLOps</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Statistiques Appliquées</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Économie</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Automatisation VBA</h3>
+                </div>
+                 <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python / Conda / PyTorch</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-area"></i>
+                    <h3>Évaluation d'impact</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Marketing</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Géomarketing</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Visualisation (PowerBI, Excel, RShiny)</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Rédaction de rapports d'analyse</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="reveal">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card company-card" onclick="window.location.href='certifications/datacamp.html'">
+                    <img src="assets/images/datacamp.png" alt="DataCamp Logo">
+                    <div class="cert-card-content">
+                        <h3>DataCamp</h3>
+                        <p>4 Certifications</p>
+                        <button class="cert-btn view-btn">Voir les détails</button>
+                    </div>
+                </div>
+                <div class="certification-card company-card" onclick="window.location.href='certifications/coursera.html'">
+                    <img src="assets/images/coursera.png" alt="Coursera Logo">
+                    <div class="cert-card-content">
+                        <h3>Coursera</h3>
+                        <p>1 Certification</p>
+                        <button class="cert-btn view-btn">Voir les détails</button>
+                    </div>
+                </div>
+                <div class="certification-card company-card" onclick="window.location.href='certifications/udemy.html'">
+                    <img src="assets/images/udemy.png" alt="Udemy Logo">
+                    <div class="cert-card-content">
+                        <h3>Udemy</h3>
+                        <p>3 Certifications</p>
+                        <button class="cert-btn view-btn">Voir les détails</button>
+                    </div>
+                </div>
+                <div class="certification-card company-card" onclick="window.location.href='certifications/wqu.html'">
+                     <img src="assets/images/wqu.png" alt="WQU Logo">
+                     <div class="cert-card-content">
+                        <h3>WorldQuant University</h3>
+                        <p>1 Certification</p>
+                        <button class="cert-btn view-btn">Voir les détails</button>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="reveal">
+            <h2>Projets & Expériences</h2>
+            
+            <div class="projects-grid">
+                <!-- Experiences Professionnelles Group -->
+                <div class="project-card company-card" onclick="window.location.href='projects/experiences-pro.html'">
+                    <div class="project-badge">Carrière</div>
+                    <i class="fas fa-briefcase" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Stages & Expériences Pro</h3>
+                    <p>Mon parcours en tant qu'<strong>AI Engineer chez MAXA</strong>, mes missions au <strong>MINFI</strong> et mes initiatives entrepreneuriales avec <strong>NKStatConsulting</strong>.</p>
+                    <button class="cert-btn view-btn" style="margin-top: auto;">Voir les détails</button>
+                </div>
+
+                <!-- Hackathons Group -->
+                <div class="project-card company-card" onclick="window.location.href='projects/projets-hackathon.html'">
+                    <div class="project-badge winner">Excellence</div>
+                    <i class="fas fa-trophy" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Hackathons & Victoires</h3>
+                    <p>Mes succès en compétition nationale et internationale : <strong>1ère Place IndabaX</strong>, <strong>1ère Place Datatour Afrique</strong>, et bien d'others.</p>
+                    <button class="cert-btn view-btn" style="margin-top: auto;">Voir les trophées</button>
+                </div>
+
+                <!-- Projets Personnels Group -->
+                <div class="project-card company-card" onclick="window.location.href='projects/projets-personnels.html'">
+                    <div class="project-badge">Innovation</div>
+                    <i class="fas fa-lightbulb" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Projets Personnels IA</h3>
+                    <p>Exploration des technologies de pointe : <strong>Système RAG</strong> intelligent, Dashboards RH et modélisation statistique avancée.</p>
+                    <button class="cert-btn view-btn" style="margin-top: auto;">Explorer les projets</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="reveal">
+            <h2>Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Entrons en contact</h3>
+                    <p>N'hésitez pas à me contacter. Je suis ouvert aux opportunités et collaborations.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/crepin-koulou-912aa5248/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/kouloucrepin?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:crepinkoulo@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formsubmit.co/crepinkoulo@gmail.com" method="POST">
+                        <!-- Configuration FormSubmit -->
+                        <input type="hidden" name="_subject" value="Nouveau message depuis votre Portfolio !">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://votre-site.com/merci.html"> <!-- Optionnel : page de remerciement -->
+
+                        <input type="text" name="name" placeholder="Votre Nom" required>
+                        <input type="email" name="email" placeholder="Votre Email" required>
+                        <textarea name="message" placeholder="Votre Message" rows="5" required></textarea>
+                        <button type="submit">Envoyer <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="navigation-dots">
+        <a href="#home" class="dot active" aria-label="Accueil"></a>
+        <a href="#about" class="dot" aria-label="À propos"></a>
+        <a href="#skills" class="dot" aria-label="Compétences"></a>
+        <a href="#certifications" class="dot" aria-label="Certifications"></a>
+        <a href="#projects" class="dot" aria-label="Projets"></a>
+        <a href="#contact" class="dot" aria-label="Contact"></a>
+    </div>
+
+    <!-- Chatbot Icon -->
+    <div class="chatbot-icon" id="chatbot-icon">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <!-- Chatbot Window -->
+    <div class="chatbot-window" id="chatbot-window">
+        <div class="chatbot-header">
+            <h3>Assistant Chatbot</h3>
+            <button class="close-chatbot" id="close-chatbot">&times;</button>
+        </div>
+        <div class="chatbot-body" id="chatbot-body">
+            <p class="chatbot-message bot">Bonjour ! Posez-moi des questions sur les projets de KOULOU Crepin.</p>
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" placeholder="Tapez votre message..." id="chatbot-input">
+            <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

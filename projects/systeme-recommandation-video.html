@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet: Système de Recommandation Vidéo</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html">Mon Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Accueil</a></li>
+                <li><a href="../index.html#about">À propos</a></li>
+                <li><a href="../index.html#skills">Compétences</a></li>
+                <li><a href="../index.html#certifications">Certifications</a></li>
+                <li><a href="../index.html#projects">Projets</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+            </div>
+            <div class="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="project-detail">
+            <h2>Système de Recommandation Vidéo</h2>
+            <p class="project-intro">
+                Développement d'un système de recommandation personnalisé pour une plateforme de streaming vidéo, améliorant l'engagement des utilisateurs et la découverte de contenu.
+            </p>
+
+            <div class="project-overview">
+                <h3>Objectif</h3>
+                <p>Créer un algorithme capable de suggérer des vidéos pertinentes à chaque utilisateur en fonction de son historique de visionnage, de ses préférences et du comportement d'utilisateurs similaires.</p>
+                
+                <h3>Technologies Utilisées</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-cubes"></i>
+                        <h3>TensorFlow / PyTorch</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Filtrage Collaboratif</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-tags"></i>
+                        <h3>Content-Based</h3>
+                    </div>
+                </div>
+
+                <h3>Démarche</h3>
+                <ul>
+                    <li>Analyse des données d'interaction utilisateur (visionnages, likes, commentaires).</li>
+                    <li>Implémentation de techniques de filtrage collaboratif (utilisateur-utilisateur, item-item).</li>
+                    <li>Développement d'un modèle basé sur le contenu en utilisant des métadonnées vidéo (genres, tags, descriptions).</li>
+                    <li>Combinaison des approches pour un système hybride robuste.</li>
+                    <li>Évaluation des performances avec des métriques telles que la précision, le rappel et le NDCG.</li>
+                    <li>Déploiement et tests A/B pour valider l'impact sur l'engagement utilisateur.</li>
+                </ul>
+
+                <h3>Résultats</h3>
+                <p>
+                    Le système de recommandation a permis d'augmenter le temps de visionnage moyen de 15% et a réduit le taux de rebond sur la plateforme. La personnalisation a grandement amélioré l'expérience utilisateur.
+                </p>
+
+                <!-- Project image -->
+                <div class="project-images">
+                    <img src="../assets/images/project2.jpg" alt="Capture d'écran du système de recommandation vidéo" style="max-width: 100%; height: auto; margin-top: 20px; border-radius: 8px; box-shadow: var(--shadow);">
+                    <p style="font-size: 0.9em; color: var(--secondary-text-color-light);">Interface de suggestion de vidéos</p>
+                </div>
+            </div>
+            <a href="../index.html#projects" class="cta-button" style="margin-top: 40px;">Retour aux projets</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+    <!-- Chatbot Icon -->
+    <div class="chatbot-icon" id="chatbot-icon">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <!-- Chatbot Window -->
+    <div class="chatbot-window" id="chatbot-window">
+        <div class="chatbot-header">
+            <h3>Assistant Chatbot</h3>
+            <button class="close-chatbot" id="close-chatbot">&times;</button>
+        </div>
+        <div class="chatbot-body" id="chatbot-body">
+            <p class="chatbot-message bot">Bonjour ! Posez-moi des questions sur les projets de KOULOU Crepin.</p>
+            <!-- Chat messages will go here -->
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" placeholder="Tapez votre message..." id="chatbot-input">
+            <button id="chatbot-send">Envoyer</button>
+        </div>
+    </div>
+
+</body>
+</html>
